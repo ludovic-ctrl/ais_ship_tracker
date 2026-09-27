@@ -69,7 +69,7 @@ try:
     if API_MONITORING_INTERVAL < 10:
         API_MONITORING_INTERVAL = 10
 
-    WEBSOCKET_URL = "wss://stream.aisstream.io/v0/stream"
+    WEBSOCKET_URL = "wss://ais.openwaters.io/v0/stream"
     if DEV_MODE:
         custom_ws_url = config.get('websocket_url', '')
         if custom_ws_url:
