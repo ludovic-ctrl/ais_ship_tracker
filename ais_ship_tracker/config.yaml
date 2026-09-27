@@ -1,5 +1,6 @@
 name: "AIS Ship Tracker"
 version: "1.4.6"
+image: "ghcr.io/ludovic-ctrl/ais-ship-tracker"
 slug: "ais_ship_tracker"
 description: "Tracks passing ships via AISStream"
 url: "https://github.com/buttermilkgreen/ais_ship_tracker" 
